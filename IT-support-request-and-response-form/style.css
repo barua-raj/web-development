@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-address {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+.signature {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 125px;
+}
+.signature-line {
+    border-top: 1px solid #000;
+    width: 80%;
+    margin: 20px auto 0;
+}
+.signature-label {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.signature-container {
+    text-align: center;
+}
+
+.footer-content p{
+	color: #ffffff;
+	text-align: justify;
+	padding-right: 40px;
+	padding-bottom: 10px;
+}
+.footer-content a {
+	text-decoration: none;
+	color: #f08632;
+	font-size: 15px;
+}
+.resources-list-link a {
+	text-decoration: none;
+	color: #cc3300;
+}
+.footer-logo img {
+	width: 80%;
+	height: auto;
+	text-align: center;
+}
+.footer-newsletter-head h5 {
+	color: #fcad03;
+	text-align: right;
+	text-transform: uppercase;
+}
+.footer-newsletter-head p {
+	color: #ffffff;
+	text-align: right;
+}
+.footer-ending {
+	color: #ffffff;
+	text-align: center;
+	border-top: 1px solid #6f5444;
+}
+.copyright {
+	color: #8e6c57;
+}

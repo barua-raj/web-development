@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Support Request and Response Form</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <section class="header" style="padding-bottom: 50px;">
+		
+			<div class="container-fluid">
+            <!-- Organization Logo and Information -->
+                <div class="text-center my-4">
+                    <img src="img/gssbangladesh-logo.png" alt="Organization Logo" class="logo" style="width:150px;height:auto;">
+                    <p class="top-address">44 Shahid Tajuddin Ahmed Sarani, Tejgaon, Dhaka-1208, Bangladesh</p>
+            <hr style="height:1px;border-width:0;color:gray;background-color:black;">
+                    
+        </div>
+                <h4 class="text-center my-4" style="padding-top: 35px;"><b>IT SUPPORT REQUEST AND RESPONSE FORM</b></h4>
+                <div class="row mb-6">
+				
+					<div class="col-sm-6">
+						<!-- Section 1: Request Details -->
+                        <h5 class="text-center my-4" style="padding-top: 35px; padding-bottom: 15px;">REQUEST DETAILS</h5>
+                            <form>
+                                <div class="form-group col-md-4">
+                                    <label>Date of Request :</label>
+                                    <input class="form-control" id="dateOfRequest">
+                                </div>
+                                <div class="form-group col-md-4" style="padding-top: 10px;">
+                                    <label>Requested By :</label>
+                                    <input class="form-control" id="requestedBy">
+                                </div>
+                                <div class="form-group col-md-4" style="padding-top: 10px;">
+                                    <label>Request Category :</label>
+                                    <input type="text" class="form-control" id="department">
+                                </div>
+                                <div class="form-group col-md-4" style="padding-top: 10px;">
+                                    <label>Email :</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group col-md-4" style="padding-top: 10px;">
+                                    <label>Phone :</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="form-group col-md-10" style="padding-top: 10px;">
+                                    <label>Description of Issue/Request :</label>
+                                    <textarea class="form-control" id="description" rows="4" style="resize: none;"></textarea>
+                                </div>
+                            </form>
+						
+				      </div>
+                    
+                      <div class="col-sm-6">
+						
+                      <!-- Section 2: Response Details -->
+                            <form>
+                                <h5 class="text-center my-4" style="padding-top: 35px; padding-bottom: 15px;">RESPONSE DETAILS</h5>
+                                <div class="form-group col-md-4">
+                                    <label>Date of Response :</label>
+                                    <input class="form-control" id="dateOfResponse">
+                                </div>
+                                <div class="form-group col-md-4" style="padding-top: 10px;">
+                                    <label>Assigned To :</label>
+                                    <input type="text" class="form-control" id="assignedTo">
+                                </div>
+                                <div class="form-group col-md-10" style="padding-top: 10px;">
+                                    <label for="responseSummary">Response Summary :</label>
+                                    <textarea class="form-control" id="responseSummary" rows="4" style="resize: none;"></textarea>
+                                </div>
+                                <div class="form-group col-md-12"  style="margin-bottom: 75px; padding-top: 10px;">
+                                    <!---
+                                    <label style="margin-right: 30px;"><b>Status</b></label>
+                                    --->
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="status" id="resolved" value="resolved">
+                                        <label class="form-check-label" for="resolved">
+                                            Resolved
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="status" id="pending" value="pending">
+                                        <label class="form-check-label" for="pending">
+                                            Pending Further Action
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="status" id="escalated" value="escalated">
+                                        <label class="form-check-label" for="escalated">
+                                            Escalated
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-10" style="padding-top: 19px;">
+                                    <label>Comments :</label>
+                                    <textarea class="form-control" id="comments" rows="4" style="resize: none;"></textarea>
+                                </div>
+                        </form>
+					</div>
+				
+				</div>
+			
+			</div>
+		
+		</section>
+        
+        <section class="signature">
+            
+            <div class="container-fluid">
+                
+                <div class="row">
+                    
+                    <div class="col-sm-4 text-center">
+                        <div class="signature-line"></div>
+                        <label class="signature-label" for="requestedBySignature">Requested by</label>
+                    </div>
+                    
+                    <div class="col-sm-4 text-center">
+                        <div class="signature-line"></div>
+                        <label class="signature-label" for="assignedToSignature">Assigned to</label>
+                    </div>
+                    
+                    <div class="col-sm-4 text-center">
+                        <div class="signature-line"></div>
+                        <label class="signature-label" for="lineManagerSignature">Line Manager of Assigned Officer</label>
+                    </div>
+                    
+                 </div>
+                
+            </div>
+            
+        </section>
+        
+        <hr style="height:1px;border-width:0;color:gray;background-color:black;">
+        
+        <section class="footer">
+		
+			<div class="container-fluid">
+			     
+                <div class="row mb-6">
+				
+					<div class="col-sm-3">
+						
+                        <h5 style="font-size: 11px;"><b>HEAD OFFICE</b></h5>
+						
+					</div>
+                    <div class="col-sm-3">
+						
+                        <h5 style="font-size: 11px;"><b>REGIONAL OFFICES</b></h5>
+						
+					</div>
+				
+				</div>
+			
+				<div class="row mb-3">
+				
+					<div class="col-sm-3">
+						
+						<p style="font-size: 10px;">
+                           44 Shahid Tajuddin Ahmed Sarani
+                           <br>
+                           Tejgaon, Dhaka-1208
+                           <br> 
+                           Tel: 9830211, 9830274
+                           <br>
+                        </p>
+						
+					</div>
+                    <div class="col-sm-3">
+						
+						<p style="font-size: 10px;">
+                           Khulna Regional Office & Training Centre
+                           <br>
+                           Damodar, Fultola
+                           <br>
+                           Khulna-9210
+                           <br>
+                        </p>
+						
+					</div>
+                    <div class="col-sm-3">
+						
+						<p style="font-size: 10px;">
+                           Syedpur Regional Office & Training Centre
+                           <br> 
+                           Parbatipur Road, Syedpur
+                           <br>
+                           Nilphamary-5300
+                           <br>
+                        </p>
+                        
+					</div>
+                    <div class="col-sm-3">
+						
+						<p style="font-size: 10px;">
+                           Mymensingh Regional Office & Training Centre
+                           <br> 
+                           Barobilar Par, Churkhai
+                           <br>
+                           Mymensingh-2200
+                        </p>
+                        
+					</div>
+				
+				</div>
+			
+			</div>
+		
+		</section>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
