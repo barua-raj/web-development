@@ -1,0 +1,310 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: Calibri;
+	word-spacing: 1.5px;
+	text-align: justify;
+}
+.container {
+	width: 90%;
+	margin: auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.heading {
+	padding-top: 10px;
+}
+.name {
+	border-bottom: 1px solid #2098f5;
+	flex-basis: 50%;
+}
+.name h2 {
+	padding-bottom: 10px;
+	font-size: 38px;
+}
+.name h5 {
+	font-size: 16px;
+}
+.photo {
+	text-align: right;
+	flex-basis: 50%;
+	border-bottom: 1px solid #2098f5;
+}
+.photo img {
+	width: 135px;
+	height: 135px;
+}
+
+/* objective */
+
+.objective {
+	padding-top: 20px;
+	margin-bottom: 16px;
+}
+.objective h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 13px;
+}
+.objective p {
+	font-size: 20px;
+	text-indent: 30px;
+}
+
+/* experience */
+
+.experience {
+	margin-bottom: 16px;
+}
+.experience h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+.experience-1 {
+	flex-basis: 100%;
+	margin-bottom: 25px;
+    text-decoration: none;
+}
+.experience-1 h3 {
+	margin-bottom: 10px;
+}
+.experience-1 h4 {
+	color: #2098f5;
+	margin-bottom: 10px;
+}
+.experience-2 {
+	flex-basis: 100%;
+}
+.experience-2 h3 {
+	margin-bottom: 10px;
+}
+.experience-2 h4 {
+	color: #2098f5;
+	margin-bottom: 10px;
+}
+.date-icon {
+	font-size: 15px;
+	font-weight: 400;
+	display: inline-block;
+	padding-right: 50px;
+}
+.new-element {
+	display:inline-block;
+	margin-bottom: 12px;
+	font-size: 15px;
+}
+.responsibilities p {
+	font-size: 20px;
+}
+.responsibilities p:before {
+	content: "\2022";
+}
+
+/* Technical Skills */
+
+.skill {
+	margin-bottom: 16px;
+}
+.skill h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 13px;
+}
+.skill-row-1-1 {
+	display: inline-block;
+	margin-right: 45px;
+}
+.skill-row-2-1 {
+	display: inline-block;
+	margin-right: 48px;
+}
+.skill p {
+	font-size: 20px;
+
+}
+.skill p:before {
+	content: "\2022";
+}
+
+/* additional skills */
+
+.aditional-skill {
+	margin-bottom: 25px;
+}
+.aditional-skill h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 13px;
+}
+.aditional-skill p {
+	font-size: 20px;
+}
+.aditional-skill p:before {
+	content: "\2022";
+}
+
+/* educational qualifications */
+
+.edu-table {
+	flex-basis: 100%;
+	margin-bottom: 16px;	
+}
+.edu-table h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 13px;
+}
+.table-1 th, td {
+	border: 1px solid black;
+}
+.table-1 {
+	width: 90%;
+	border-collapse: collapse;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.table-head h3{
+	font-size: 17px;
+	padding: 10px 5px 10px 5px;
+	text-align: center;
+}
+.table-content-1 {
+	padding: 15px 15px 15px 15px;
+}
+.table-content-1 p {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+
+/* professional certifications */
+
+.certification {
+	margin-bottom: 16px;
+}
+.certification h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 13px;
+}
+.certification-1 {
+	display: inline-block;
+	margin-right: 105px;
+}
+.certification-1 h3 {
+	margin-bottom: 10px;
+}
+.certification-1 p {
+	font-size: 18px;
+}
+.certification-2 {
+	display: inline-block;
+}
+.certification-2 h3 {
+	margin-bottom: 10px;
+}
+.certification-2 p {
+	font-size: 18px;
+}
+
+/* trainings */
+
+.trainings {
+	margin-bottom: 16px;
+	
+}
+.trainings h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 13px;
+}
+.trainings-1 {
+	
+	margin-right: 10px;
+}
+.trainings-1 h3:before {
+	content: "\2022";
+}
+.trainings-1 p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.trainings-2 h3:before {
+	content: "\2022";
+}
+.trainings-2 p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.trainings-3 h3:before {
+	content: "\2022";
+}
+.trainings-3 p {
+	font-size: 18px;
+}
+
+/* language proficiency */
+
+.language-proficiency {
+	margin-bottom: 16px;
+}
+.language-proficiency h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 13px;
+}
+.language-proficiency p {
+	font-size: 20px;
+}
+.language-proficiency p:before {
+	content: "\2022";
+}
+
+/* references */
+
+.reference {
+	margin-bottom: 16px;
+}
+.reference h2 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 13px;
+}
+.reference-1 {
+	display: inline-block;
+	margin-right: 225px;
+}
+.reference-1 h3 {
+	margin-bottom: 10px;
+}
+.reference-2 {
+	display: inline-block;
+}
+.reference-2 h3 {
+	margin-bottom: 10px;
+}
+
+/* signature */
+
+.sig {
+	border-top: 1px solid #2098f5;
+	width: 100%;
+}
+.sig h3 {
+	text-indent: 10px;
+	font-size: 18px;
+	text-align: justify;
+	padding-top: 10px;
+}
+.sig img {
+	max-width: 50%;
+	height: auto;
+	margin-bottom: 2px;
+	border-bottom: 1px solid #000000;
+}
