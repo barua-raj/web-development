@@ -1,3 +1,19 @@
+<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "student-database-management";
+
+    // Create connection
+    $conn = new mysqli(localhost, root, , student-database-management);
+
+    // Check connection
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+    }
+    echo "Connected successfully";
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -71,36 +87,58 @@
                 <div class="col-md-6">
                     <div class="form-box">
                         
-                        <form>
+                        <?php
+                        if($_SERVER['REQUEST_METHOD'] == 'POST'){
+                            
+                        $course = $_POST['stu_course'];
+                        echo $course;
+                        $batch = $_POST['stu_batch'];
+                        echo $batch;
+                        $name = $_POST['stu_name'];
+                        echo $name;
+                        $phone = $_POST['stu_phone'];
+                        echo $phone;
+                        $email = $_POST['stu_email'];
+                        echo $email;
+                        $address = $_POST['stu_address'];
+                        echo $address;
+                            
+                        $sql = INSERT INTO student_info()values();
+    
+                        }
+                                                    
+                        ?>
+                        
+                        <form action="" method="POST">
                             
                           <div class="mb-3">
                             <label class="form-label">Course Name</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" name="stu_course">
                           </div>
                             
                           <div class="mb-3">
                             <label class="form-label">Batch No.</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" name="stu_batch">
                           </div>
                             
                           <div class="mb-3">
                             <label class="form-label">Name</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" name="stu_name">
                           </div>
                             
                           <div class="mb-3">
                             <label class="form-label">Phone</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" name="stu_phone">
                           </div>
                             
                           <div class="mb-3">
                             <label class="form-label">Email Address</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" name="stu_email">
                           </div>
                           
                           <div class="mb-3">
                             <label class="form-label">Address</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" name="stu_address">
                           </div>
                           
                           <div class="mb-3">
